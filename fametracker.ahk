@@ -236,7 +236,9 @@ updatetooltip()
 	if (autopastemode)
 	{
 		tcm := Round((tc/60),3)
-		clipboard := "Time interval [" tcm "m], fpm interval [" stc "], fpm total [" stt "]"
+		ttm := Round((tt/60),3)
+		;tcm : stc :: ttm : stt
+		clipboard := "Interval [" tcm " minutes / " stc " fpm]    Total [" ttm " minutes / " stt " fpm]"
 	}
 }
 ;-------------------------------------------------------------------------
