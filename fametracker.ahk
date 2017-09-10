@@ -238,7 +238,8 @@ updatetooltip()
 		tcm := Round((tc/60),3)
 		ttm := Round((tt/60),3)
 		;tcm : stc :: ttm : stt
-		clipboard := "Interval [" tcm " minutes / " stc " fpm]    Total [" ttm " minutes / " stt " fpm]"
+		;clipboard := "Interval [" tcm " minutes / " stc " fpm]    Total [" ttm " minutes / " stt " fpm]"
+		clipboard := stc " fpm"
 	}
 }
 ;-------------------------------------------------------------------------

@@ -71,16 +71,26 @@ Using the Clipboard Stats
 When you push F11 to enable this mode, the following text is placed on the
 clipboard:
 
-Interval [`itime` / `ifpm`]   Total [`ttime` / `tfpm`]
+~~Interval [`itime` / `ifpm`]   Total [`ttime` / `tfpm`]~~
 
-* `itime` is the amount of time, in minutes, between the most recently added
-fame, and the fame added before that. 
-* `ifpm` is fame-per-minute as measured from the previously added fame value
+* ~~`itime` is the amount of time, in minutes, between the most recently added
+fame, and the fame added before that.~~
+* ~~`ifpm` is fame-per-minute as measured from the previously added fame value
+to the most recently added fame value.~~
+* ~~`ttime` is the amount of time, in minutes, from the very first time you input
+a fame value to the time you most recently added a fame value.~~
+* ~~`tfpm` is fame-per-minute as measured from the very first fame value you
+added to the most recently added fame value.~~
+
+`fpm` fpm
+
+* Where `fpm` is fame-per-minute as measured from the previously added fame value
 to the most recently added fame value.
-* `ttime` is the amount of time, in minutes, from the very first time you input
-a fame value to the time you most recently added a fame value.
-* `tfpm` is fame-per-minute as measured from the very first fame value you
-added to the most recently added fame value.
+
+This section was modified to make the return more discreet and avoid being called
+out as a "hacker" or a "botter". Some people simply can't appreciate something
+that technically isn't against ToS (as it doesn't actually touch the game or any
+of its components).
 
 Share this info to anyone who wants to know. It's on your clipboard so you
 can paste it to the chat.
